@@ -1,3 +1,49 @@
-header{
-  background-color: ;
+header {
+  background-color: aqua;
+  background-image: url(./img/pattern.png);
+}
+
+#logo {
+  width: 255px;
+  margin-top: 36px;
+  background-repeat: repeat;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+#author {
+  color: aqua;
+}
+.scrittore {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.important {
+  background-color: yellow;
+}
+.intestazione {
+  background-color: blue;
+  color: white;
+}
+table {
+  width: 100%;
+  text-align: left;
+}
+.pointtwo {
+  background-color: aquamarine;
+}
+.lastline {
+  background-color: aquamarine;
+}
+#consigli {
+  color: gray;
+}
+.pc {
+  position: relative;
+}
+.sopra {
+  position: relative;
 }
