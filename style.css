@@ -48,8 +48,11 @@ td{
   color: gray;
 }
 .pc {
+  background-image: url(img/monitor.jpg);
   position: absolute;
 }
 .sopra {
-  position: relative;
+  position: absolute;
+  margin-top: 0;
+  text-align: center;
 }
