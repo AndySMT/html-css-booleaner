@@ -16,6 +16,7 @@ h1 {
 #author {
   color: aqua;
 }
+
 .scrittore {
   font-size: 10px;
   margin-top: 0;
@@ -29,7 +30,12 @@ h1 {
   color: white;
 }
 table {
-  width: 100%;
+  width: auto;
+  text-align: left;
+  border-collapse: collapse;
+}
+td{
+  white-space: nowrap;
   text-align: left;
 }
 .pointtwo {
@@ -42,7 +48,7 @@ table {
   color: gray;
 }
 .pc {
-  position: relative;
+  position: absolute;
 }
 .sopra {
   position: relative;
