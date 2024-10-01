@@ -20,7 +20,14 @@ h1 {
 #author {
   color: #47b8e9;
 }
-
+.photo{ 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.photo2{ 
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .scrittore {
   font-size: 10px;
   margin-top: 0;
@@ -29,14 +36,21 @@ h1 {
 .important {
   background-color: #ffff00;
 }
+.list{
+  text-align: left;
+  margin: 0;
+}
 .intestazione {
   background-color: #20a9e5;
   color: white;
 }
 table {
-  width: auto;
-  text-align: left;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 40px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
 }
 td{
   white-space: nowrap;
@@ -51,12 +65,30 @@ td{
 #consigli {
   color: gray;
 }
-.pc {
+.pc{
   background-image: url(img/monitor.jpg);
-  position: absolute;
-}
-.sopra {
-  position: absolute;
-  margin-top: 0;
+  margin: 0px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 140%;
+  line-height: 260px;
   text-align: center;
+  width: 240px;
+  height: 150px;
+}
+.pc1{
+  background-image: url(img/graph.jpg);
+  background-position: auto;
+  margin: 0px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 140%;
+  line-height: 260px;
+  text-align: center;
+  width: 240px;
+  height: 150px;
+}
+.sopra1{
+  text-align: center;
+  text-align: top;
 }
