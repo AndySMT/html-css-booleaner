@@ -1,11 +1,15 @@
+
 header {
-  background-color: aqua;
+  background-color: #4ea0ff;
   background-image: url(./img/pattern.png);
+  background-size: 30%;
+  width: 100%;
+  
 }
 
 #logo {
-  width: 255px;
-  margin-top: 36px;
+  width: 20%;
+  margin-top: 41px;
   background-repeat: repeat;
 }
 h1 {
@@ -14,7 +18,7 @@ h1 {
   margin-top: 10px;
 }
 #author {
-  color: aqua;
+  color: #47b8e9;
 }
 
 .scrittore {
@@ -23,10 +27,10 @@ h1 {
   margin-bottom: 20px;
 }
 .important {
-  background-color: yellow;
+  background-color: #ffff00;
 }
 .intestazione {
-  background-color: blue;
+  background-color: #20a9e5;
   color: white;
 }
 table {
@@ -39,10 +43,10 @@ td{
   text-align: left;
 }
 .pointtwo {
-  background-color: aquamarine;
+  background-color: #b1e5f2;
 }
 .lastline {
-  background-color: aquamarine;
+  background-color: #b1e5f2;
 }
 #consigli {
   color: gray;
